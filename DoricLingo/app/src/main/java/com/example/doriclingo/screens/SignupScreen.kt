@@ -175,12 +175,10 @@ fun SignupScreen(
                     }
 
                 },
-                //conditions to enable the signup button
-                enabled = !loading && validName && validPassword && validConfirmPassword && validEmail,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(60.dp)
-                    .align(Alignment.CenterHorizontally) // Center the button horizontally
+                    .align(Alignment.CenterHorizontally)
             ) {
                 Text(text = if (loading) context.getString(R.string.creating_account) else context.getString(R.string.create_account))
             }
@@ -306,13 +304,12 @@ fun SignupScreen(
                     }
 
                 },
-                enabled = !loading && validName && validPassword && validConfirmPassword && validEmail,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(60.dp)
                     .align(Alignment.CenterHorizontally) // Center the button horizontally
             ) {
-                Text(text = if (loading) context.getString(R.string.creating_account) else context.getString(R.string.create_account))
+                Text(text = context.getString(R.string.create_account))
             }
         }
     }
