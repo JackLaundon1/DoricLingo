@@ -15,7 +15,8 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAyRDPJ7--zrnM02ZIw2v21dN9TnhY-W_o"
+          //API key not uploaded
+          "current_key": "apikey"
         }
       ],
       "services": {
