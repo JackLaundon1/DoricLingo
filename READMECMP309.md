@@ -41,7 +41,7 @@ DoricLingo is a Doric language learning app designed to help users learn Doric p
 ## Links
 
 - **Source Code**: [https://github.com/JackLaundon1/DoricLingo](https://github.com/JackLaundon1/DoricLingo)
-- **Presentation**: [https://youtu.be/InDkaYT6ny0](https://youtu.be/InDkaYT6ny0)
+- **Presentation**: [https://youtu.be/vRHYgp9JpQ4](https://youtu.be/vRHYgp9JpQ4)
 
 ---
 
